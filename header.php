@@ -27,26 +27,26 @@
 <body>
 
     <!-- ========== Header Section ========== -->
-    <div class="container-fluid fixed-top">
-        <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid fixed-top bg-dark header-transparent" id="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container mt-0">
-                <a href="#" class="navbar-brand">Charles Cantin</a>
-                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-toggle="#navbarSupporteContent" aria-controls="navbarSupporteContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a href="index.php" class="navbar-brand fs-5 text-white">Charles Cantin</a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-dark"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupporteContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-right mb-2 mb-lg-0 ms-auto fs-5">
                         <li class="nav-item">
-                            <a href="index.php" class="nav-link text-wight" aria-current="page">Accueil</a>
+                            <a href="index.php" class="nav-link text-white" aria-current="page">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a href="galerie.php" class="nav-link text-wight">Galerie</a>
+                            <a href="galerie.php" class="nav-link text-white">Galerie</a>
                         </li>
                         <li class="nav-item">
-                            <a href="tarifs.php" class="nav-link text-wight">Tarifs et prestations</a>
+                            <a href="tarifs.php" class="nav-link text-white">Tarifs et prestations</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact.php" class="nav-link text-wight">Contact</a>
+                            <a href="contact.php" class="nav-link text-white">Contact</a>
                         </li>
                     </ul>
                 </div>

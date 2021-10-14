@@ -4,9 +4,9 @@ include("../charles-cantin/header.php");
 ?>
 
 <!-- ========== Home Page Section ========== -->
-<section id="title-page">
+<section id="page-title">
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb container">
+        <ol class="breadcrumb container mt-5 m-auto p-4">
             <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home fa-1x"></i></a></li>
             <li class="breadcrumb-item active" aria-current="page">Contact</li>
         </ol>

@@ -3,11 +3,10 @@ session_start();
 include("../charles-cantin/header.php");
 ?>
 
-
 <!-- ========== Home Page Section ========== -->
-<section id="title-page">
+<section id="page-title">
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb container">
+        <ol class="breadcrumb container mt-5 m-auto p-4">
             <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home fa-1x"></i></a></li>
             <li class="breadcrumb-item active" aria-current="page">Galerie</li>
         </ol>
@@ -26,7 +25,7 @@ include("../charles-cantin/header.php");
             </div>
 
             <div class="row">
-                <div class="filter-button">
+                <div class="filter-buttons">
                     <ul id="filter-btns">
                         <li class="active" data-target="all">TOUTES</li>
                         <li data-target="mariage">MARIAGE</li>
@@ -41,7 +40,7 @@ include("../charles-cantin/header.php");
             </div>
 
             <div class="row">
-                <div class="portfolio-gallary">
+                <div class="portfolio-gallery">
                     <div class="item" data-id="mariage">
                         <div class="inner">
                             <img src="img/img1.jpg" alt="Photo de mariage">

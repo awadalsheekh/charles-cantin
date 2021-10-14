@@ -4,9 +4,9 @@ include("../charles-cantin/header.php");
 ?>
 
 <!-- ========== Home Page Section ========== -->
-<section id="title-page">
+<section id="page-title">
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb container">
+        <ol class="breadcrumb container mt-5 m-auto p-4">
             <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home fa-1x"></i></a></li>
             <li class="breadcrumb-item active" aria-current="page">Tarifs et prestations</li>
         </ol>
@@ -17,7 +17,7 @@ include("../charles-cantin/header.php");
 <main id="main">
 
     <!-- ========== Prices Section ========== -->
-    <section id="tarif" class="tarif">
+    <section id="price" class="price">
         <div class="container">
             <div class="section-title">
                 <h2>Tarifs et prestations</h2>
@@ -37,7 +37,7 @@ include("../charles-cantin/header.php");
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
                     <div class="box">
                         <h3>Pour deux</h3>
                         <h4>195<sup>€</sup></h4>
@@ -49,7 +49,7 @@ include("../charles-cantin/header.php");
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6  mt-4 mt-lg-0">
                     <div class="box">
                         <h3>Famille</h3>
                         <h4>220<sup>€</sup></h4>
@@ -61,44 +61,44 @@ include("../charles-cantin/header.php");
                         </div>
                     </div>
                 </div>
-                <!-- End Row -->
-                <br>
+            </div>
+            <!-- End Row -->
+            <br>
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <h3>Il était une fois</h3>
-                            <h4>160<sup>€</sup></h4>
-                            <ul>
-                                <li>Photo de grossesse (à votre domicile, en <br>extérieur ou en studio)</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-reservation">Réserver</a>
-                            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <h3>Il était une fois</h3>
+                        <h4>160<sup>€</sup></h4>
+                        <ul>
+                            <li>Photo de grossesse (à votre domicile, en <br>extérieur ou en studio)</li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="#" class="btn-reservation">Réserver</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <h3>Mon bébé</h3>
-                            <h4>100<sup>€</sup></h4>
-                            <ul>
-                                <li>Photo d'enfant jusqu'à 3 ans (photo à <br>domicile)</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-reservation">Réserver</a>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                    <div class="box">
+                        <h3>Mon bébé</h3>
+                        <h4>100<sup>€</sup></h4>
+                        <ul>
+                            <li>Photo d'enfant jusqu'à 3 ans (photo à <br>domicile)</li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="#" class="btn-reservation">Réserver</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <h3>J'imortalise l'événement</h3>
-                            <h4>sur mesure<sup></sup></h4>
-                            <ul>
-                                <li>Prestation de mariage ou baptême sur <br>devis</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-reservation">En savoir plus</a>
-                            </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                    <div class="box">
+                        <h3>J'imortalise l'événement</h3>
+                        <h4>sur mesure<sup></sup></h4>
+                        <ul>
+                            <li>Prestation de mariage ou baptême sur <br>devis</li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="#" class="btn-reservation">En savoir plus</a>
                         </div>
                     </div>
                 </div>
