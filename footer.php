@@ -9,12 +9,15 @@
                     <a href="#" class="facebook"><i class="fab fa-facebook-square fa-3x"></i></a>
                     <a href="#" class="instagram"><i class="fab fa-instagram-square fa-3x"></i></a>
                 </div>
-                <div class="copyright">
+                <!-- <div class="copyright">
                     &copy; Copyright<stronge><span>Charles Cantin</span></stronge>. Tous les droits sont réservés
-                </div>
+                </div> -->
             </div>
             <div class="col-lg-6 logo">
                 <img src="../charles-cantin/img/logo.JPG" alt="">
+                <div class="copyright">
+                    &copy; <stronge><span> 2021 Charles Cantin</span></stronge>
+                </div>
             </div>
         </div>
     </div>
