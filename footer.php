@@ -14,7 +14,7 @@
                 </div> -->
             </div>
             <div class="col-lg-6 logo">
-                <img src="../charles-cantin/img/logo.JPG" alt="">
+                <img src="./charles-cantin/img/logo.JPG" alt="">
                 <div class="copyright">
                     &copy; <stronge><span> 2021 Charles Cantin</span></stronge>
                 </div>
