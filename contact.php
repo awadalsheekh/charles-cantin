@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("./charles-cantin/header.php");
+include("../charles-cantin/header.php");
 ?>
 
 <!-- ========== Home Page Section ========== -->
@@ -72,4 +72,4 @@ include("./charles-cantin/header.php");
     <!--  End contact me Section  -->
 </main>
 
-<?php include("./charles-cantin/footer.php"); ?>
+<?php include("../charles-cantin/footer.php"); ?>
